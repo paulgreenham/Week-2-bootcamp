@@ -1,0 +1,76 @@
+#container {
+    width: 97vw;
+    height: 97vh;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 11fr 1fr;
+    grid-template-areas:
+    "s c"
+    "s m";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#side-bar {
+    background-color: #8E44AD;
+    grid-area: s;
+    display: grid;
+    padding: 10px;
+    
+}
+
+#chat-area {
+    background-color: #ECF0F1;
+    grid-area: c;
+    display: grid;
+    padding: 10px;
+}
+
+#messaging {
+    background-color: green;
+    grid-area: m;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* font-size: 24px;
+    font-family: 'Indie Flower', cursive; */
+}
+
+#friends-heading {
+    font-size: 18px;
+}
+
+.friend {
+    background-color: #9B59B6;
+    font-size: 14px;
+    height: 30px;
+    display: grid;
+    align-content: center;
+    padding-left: 6px;
+}
+
+.message {
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+    height: 36px;
+    align-content: center;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.received {
+    background-color: #BDC3C7;
+    justify-self: left;
+}
+
+.sent {
+    background-color: #2ECC71;
+    justify-self: right;
+}
+
+#send-button {
+    background-color: #8E44AD;
+    color: white;
+    border: none;
+}

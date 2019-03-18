@@ -1,0 +1,75 @@
+/* CSS grid lesson spot-checks*/
+
+/* #container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-template-areas: 
+    "s s h h m m"
+    "s s h h m m"
+    "s s . . m m"
+    "s s f f m m"
+    "s s f f m m";
+}
+
+.head {
+    grid-area: h;
+    background-color: blue
+}
+
+.side-nav {
+    grid-area: s;
+    background-color: brown
+}
+
+.main {
+    grid-area: m;
+    background-color: darkgreen
+}
+
+.foot {
+    grid-area: f;
+    background-color: darkorange
+} */
+
+/* #nav-container{
+    display: grid;
+    background-color: #2c3e50;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.main-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav-item{
+    display: grid;
+    align-content: center;
+    color: #ecf0f1;
+    height: 100%;
+}
+
+.logo-container{
+    display: grid;
+    justify-content: end;
+} */
+
+#results-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.result{
+    display: grid;
+    height: 100px;
+    background-color: #16a085;
+    text-align: center;
+    align-content: center;
+    border-radius: 4px;
+}
